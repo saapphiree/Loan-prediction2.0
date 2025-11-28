@@ -47,6 +47,7 @@ print(train_df['marital_status'].unique())
 print(train_df['education_level'].unique())
 print(train_df['loan_purpose'].unique())
 print(train_df.isna().sum())"""
+pd.set_option('display.max_columns', None)
 print("Train set info", train_df.head())
 print(train_df.info())
 print("Test set info", test_df.head())
