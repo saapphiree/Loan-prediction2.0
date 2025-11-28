@@ -91,29 +91,15 @@ streamlit run app.py
 ```
 loan_prediction/
 ├── data/
-│   └── train.csv              # Dataset from Kaggle
+│   └── train.csv              
 ├── models/
-│   └── loan_model.pkl         # Trained XGBoost model
+│   └── loan_model.pkl         
 ├── src/
-│   ├── app.py                 # Streamlit app
-│   ├── clean.py               # Data preprocessing script
-│   └── train.py               # Model training script
-├── requirements.txt           # Python dependencies
-└── README.md                  # Project documentation
-```
-
----
-
-## Demo
-
-**Screenshot Placeholder**
-
-![Screenshot](https://via.placeholder.com/600x400.png?text=App+Screenshot)
-
-**Sample Output Example:**
-
-```
-Customer is likely to: DEFAULT
+│   ├── app.py                 
+│   ├── clean.py               
+│   └── train.py               
+├── requirements.txt           
+└── README.md                  
 ```
 
 ---
@@ -122,3 +108,7 @@ Customer is likely to: DEFAULT
 
 * Built with **Python**, **Pandas**, **Scikit-learn**, **XGBoost**, and **Streamlit**.
 * Dataset is used purely for **educational purposes**.
+* 
+## License
+
+This project is licensed under the MIT License.
