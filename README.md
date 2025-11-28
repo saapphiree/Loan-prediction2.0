@@ -46,7 +46,7 @@ A Python-based machine learning application to predict loan repayment status. Us
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone <repo-url>
 cd loan_prediction
 ```
 
