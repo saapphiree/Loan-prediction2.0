@@ -90,15 +90,14 @@ streamlit run app.py
 
 ```
 loan_prediction/
-├── data/
-│   └── train.csv              
+├── data/              
 ├── models/
 │   └── loan_model.pkl         
 ├── src/
 │   ├── app.py                 
-│   ├── clean.py               
-│   └── train.py               
-├── requirements.txt           
+│   ├── clean.py
+│   ├── predict.py               
+│   └── train.py                         
 └── README.md                  
 ```
 
