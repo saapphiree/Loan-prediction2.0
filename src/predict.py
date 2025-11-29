@@ -26,7 +26,7 @@ def main():
     else:
         ids = pd.Series(range(len(df)), name='id')
 
-    target_col = "loan_status"
+    target_col = "loan_paid_back"
     if target_col in df.columns:
         X = df.drop(columns=[target_col])
     else:
